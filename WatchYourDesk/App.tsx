@@ -89,6 +89,7 @@ function App(): JSX.Element {
           <Section title="Learn More">
             Just Do it. Don't Think about it!
           </Section>
+          <Text style={styles.TextHighlight}>신효민 특 - 또 안함 ㅋㅋ</Text>
           <LearnMoreLinks />
         </View>
       </ScrollView>
@@ -112,6 +113,10 @@ const styles = StyleSheet.create({
   },
   highlight: {
     fontWeight: '700',
+  },
+  TextHighlight: {
+    fontSize: 28,
+    fontWeight: 'bold',
   },
 });
 
